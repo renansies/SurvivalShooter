@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49119069-6c7f-44e2-bed7-b2f6f74adfe5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnemyManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/EnemyManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -83,6 +82,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GameOverManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+              <folding>
+                <marker date="1539710176376" expanded="true" signature="6:53" ph="..." />
+                <marker date="1539710176376" expanded="true" signature="99:628" ph="{...}" />
+                <marker date="1539710176376" expanded="true" signature="256:310" ph="{...}" />
+                <marker date="1539710176376" expanded="true" signature="330:626" ph="{...}" />
+                <marker date="1539710176376" expanded="true" signature="381:620" ph="{...}" />
+                <marker date="1539710176376" expanded="true" signature="527:610" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -91,6 +107,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/EnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,6 +126,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs" />
       </list>
     </option>
   </component>
@@ -200,12 +218,12 @@
       <updated>1539207865451</updated>
       <workItem from="1539207892315" duration="4565000" />
       <workItem from="1539291957087" duration="3307000" />
-      <workItem from="1539705380730" duration="804000" />
+      <workItem from="1539705380730" duration="1083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8676000" />
+    <option name="totallyTimeSpent" value="8955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,6 +567,21 @@
             <marker date="1510144283000" expanded="true" signature="219:288" ph="{...}" />
             <marker date="1510144283000" expanded="true" signature="308:582" ph="{...}" />
             <marker date="1510144283000" expanded="true" signature="359:399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameOverManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <marker date="1539710176376" expanded="true" signature="6:53" ph="..." />
+            <marker date="1539710176376" expanded="true" signature="99:628" ph="{...}" />
+            <marker date="1539710176376" expanded="true" signature="256:310" ph="{...}" />
+            <marker date="1539710176376" expanded="true" signature="330:626" ph="{...}" />
+            <marker date="1539710176376" expanded="true" signature="381:620" ph="{...}" />
+            <marker date="1539710176376" expanded="true" signature="527:610" ph="{...}" />
           </folding>
         </state>
       </provider>
